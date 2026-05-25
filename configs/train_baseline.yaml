@@ -1,0 +1,11 @@
+# Baseline CNN (trained from scratch) config. Extends base.yaml.
+defaults: "base.yaml"
+
+model:
+  architecture: "baseline_cnn"
+  pretrained: false
+  freeze_backbone: false
+
+training:
+  epochs: 30
+  learning_rate: 0.001

@@ -1,0 +1,15 @@
+# Development dependencies (inherits production requirements).
+-r requirements.txt
+ml_dtypes>=0.5
+pytest==7.4.4
+pytest-cov==4.1.0
+black==24.4.2
+flake8==7.0.0
+flake8-pyproject==1.2.3
+isort==5.13.2
+mypy==1.10.0
+types-PyYAML==6.0.12.20240311
+pre-commit==3.7.1
+ipykernel==6.29.4
+jupyter==1.0.0
+httpx==0.27.0

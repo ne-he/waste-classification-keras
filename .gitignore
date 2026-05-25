@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Project-specific
+data/dataset-resized/
+data/*.zip
+models/checkpoints/
+models/final/
+logs/
+outputs/
+*.log
+*.h5
+*.keras
+*.pb
+saved_model/
+
+# Environment
+.env
+.env.local
+
+# Local tooling config
+.claude/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+
+# OS
+Thumbs.db
+ehthumbs.db
+
+# But keep .gitkeep
+!.gitkeep
+
+# Materi kuliah berukuran besar dan catatan kerja, jangan masuk repo
+memory.md
+kevin/
+Poster DL.pdf
+*.pdf

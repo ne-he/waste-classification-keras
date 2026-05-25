@@ -1,0 +1,30 @@
+# Shared defaults — extend in env-specific configs via `defaults: base.yaml`.
+data:
+  dataset_path: "./data/dataset-resized"
+  img_size: 224
+  batch_size: 32
+  val_split: 0.2
+  seed: 42
+  augmentation:
+    rotation_range: 20
+    zoom_range: 0.2
+    horizontal_flip: true
+    width_shift_range: 0.0
+    height_shift_range: 0.0
+
+model:
+  num_classes: 6
+  dropout_rate: 0.5
+
+training:
+  epochs: 20
+  learning_rate: 0.001
+  optimizer: "adam"
+  use_class_weights: true
+  early_stopping_patience: 5
+  reduce_lr_patience: 3
+  reduce_lr_factor: 0.5
+  min_lr: 0.000001
+
+output_dir: "./models/final"
+log_level: "INFO"

@@ -1,0 +1,13 @@
+# Inference / serving config. Consumed directly by the API and predict CLI
+# (not via Config.from_yaml, which targets training configs).
+model:
+  architecture: "mobilenet_v2"
+
+inference:
+  model_path: "./models/final/mobilenet_v2_latest"
+  device: "auto"  # "cpu" | "gpu" | "auto"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  cors_origins: ["*"]
