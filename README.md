@@ -1,4 +1,4 @@
-# Image Classification — Waste Detection with CNN & Grad-CAM
+# Image Classification: Waste Detection with CNN & Grad-CAM
 
 Production-grade waste image classification on the **TrashNet** dataset
 (6 classes, 2,527 images). Refactored from a working Jupyter notebook into a
@@ -102,11 +102,11 @@ weights on the TrashNet split (run `mobilenet_v2_20260521T031722`):
 
 | Model | Train Accuracy | Val Accuracy | Val Loss |
 |-------|---------------|--------------|----------|
-| Baseline CNN (reference) | — | 0.545 | 1.213 |
+| Baseline CNN (reference) | - | 0.545 | 1.213 |
 | MobileNetV2 | 0.915 | **0.903** | 0.281 |
 
 Validation accuracy climbs steadily from 0.73 (epoch 1) to **0.903** (epoch 20)
-with no sign of overfitting — the train/val gap stays under 1.5 points. Balanced
+with no sign of overfitting: the train/val gap stays under 1.5 points. Balanced
 class weighting is enabled to lift the under-represented `trash` class.
 
 ## Project Structure
@@ -140,4 +140,4 @@ code style.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).

@@ -1,7 +1,7 @@
 """Model factory for waste image classification.
 
-Provides two architectures refactored from the original notebook — a baseline
-CNN trained from scratch and a MobileNetV2 transfer-learning model — plus a
+Provides two architectures refactored from the original notebook: a baseline
+CNN trained from scratch and a MobileNetV2 transfer-learning model, plus a
 dispatching factory, a compilation helper, and a Grad-CAM layer locator.
 """
 

@@ -1,4 +1,4 @@
-"""Image Classification — Waste Detection with CNN & Grad-CAM.
+"""Image Classification: Waste Detection with CNN & Grad-CAM.
 
 Production-grade package refactored from the original Jupyter notebook.
 """

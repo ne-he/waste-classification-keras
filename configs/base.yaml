@@ -1,4 +1,4 @@
-# Shared defaults — extend in env-specific configs via `defaults: base.yaml`.
+# Shared defaults: extend in env-specific configs via `defaults: base.yaml`.
 data:
   dataset_path: "./data/dataset-resized"
   img_size: 224

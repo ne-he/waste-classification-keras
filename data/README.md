@@ -1,4 +1,4 @@
-# Dataset — TrashNet (dataset-resized)
+# Dataset: TrashNet (dataset-resized)
 
 This project uses the **TrashNet** dataset for waste image classification.
 
@@ -27,7 +27,7 @@ The dataset itself is **not committed to git** (see `.gitignore`).
 
 ## How to download
 
-### Option A — automated (Kaggle API)
+### Option A: automated (Kaggle API)
 
 ```bash
 # 1. Install the Kaggle CLI (included in requirements-dev.txt indirectly,
@@ -40,7 +40,7 @@ python scripts/download_dataset.py
 The script checks whether the dataset already exists and skips the download
 if so.
 
-### Option B — manual
+### Option B: manual
 
 1. Open https://www.kaggle.com/datasets/feyzazkefe/trashnet
 2. Click **Download** to get the zip archive.

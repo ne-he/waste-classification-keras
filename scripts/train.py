@@ -58,9 +58,9 @@ def main() -> int:
 
         gpus = tf.config.list_physical_devices("GPU")
         if gpus:
-            print(f"✅ GPU detected: {len(gpus)} device(s) — fast training mode")
+            print(f"✅ GPU detected: {len(gpus)} device(s), fast training mode")
         else:
-            print("⚠️ No GPU detected — CPU mode: reducing batch_size to 16 (~6 min/epoch)")
+            print("⚠️ No GPU detected, CPU mode: reducing batch_size to 16 (~6 min/epoch)")
             config.data.batch_size = 16
 
         set_seed(config.data.seed)

@@ -36,7 +36,7 @@ All hyperparameters live in `configs/*.yaml`. `train_mobilenet.yaml` and
 ## Class weighting
 
 `trash` has only 137 images. `compute_class_weights` applies scikit-learn's
-`'balanced'` heuristic so rare-class errors are penalized more heavily — the
+`'balanced'` heuristic so rare-class errors are penalized more heavily. It is the
 key lever for lifting the `trash` F1-score from ~0.39 toward ≥ 0.50.
 
 ## Reproducibility

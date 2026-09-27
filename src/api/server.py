@@ -1,10 +1,10 @@
 """FastAPI inference service for waste image classification.
 
 Endpoints:
-    GET  /health   — service and model status
-    GET  /classes  — list of class names
-    POST /predict  — classify an uploaded image
-    POST /gradcam  — Grad-CAM explanation for an uploaded image
+    GET  /health:    service and model status
+    GET  /classes:   list of class names
+    POST /predict:   classify an uploaded image
+    POST /gradcam:   Grad-CAM explanation for an uploaded image
 
 The model path is read from the ``MODEL_PATH`` environment variable. The model
 itself is loaded lazily on the first prediction request.

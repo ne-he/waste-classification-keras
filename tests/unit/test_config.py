@@ -1,4 +1,4 @@
-"""Unit tests for :mod:`src.config` (pure Python — always runs)."""
+"""Unit tests for :mod:`src.config` (pure Python, always runs)."""
 
 from __future__ import annotations
 

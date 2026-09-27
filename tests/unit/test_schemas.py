@@ -1,4 +1,4 @@
-"""Unit tests for :mod:`src.api.schemas` (pure Pydantic — always runs)."""
+"""Unit tests for :mod:`src.api.schemas` (pure Pydantic, always runs)."""
 
 from __future__ import annotations
 

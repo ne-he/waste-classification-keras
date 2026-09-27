@@ -25,7 +25,7 @@ docs/<short-description>
 
 Open a pull request into `main`; CI must pass before merge.
 
-## Commit messages — Conventional Commits
+## Commit messages: Conventional Commits
 
 ```
 <type>(<scope>): <subject>

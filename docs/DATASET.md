@@ -1,4 +1,4 @@
-# Dataset — TrashNet
+# Dataset: TrashNet
 
 ## Summary
 

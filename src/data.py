@@ -126,7 +126,7 @@ class DataLoader:
             raise DataError(f"Could not build data generators: {exc}") from exc
 
         logger.info(
-            "Generators ready — train: %d samples | val: %d samples",
+            "Generators ready, train: %d samples | val: %d samples",
             self._train_gen.samples,
             self._val_gen.samples,
         )
